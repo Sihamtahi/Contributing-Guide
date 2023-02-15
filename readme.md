@@ -32,18 +32,6 @@ Si vous voulez améliorer/corriger une fonctionnalité et/ou corriger un bug qu'
     └───────────────────────┘
 ```
 
-<!-- ## Issues
-
-[Open an issue](https://github.com/asyncapi/asyncapi/issues/new) **only** if you want to report a bug or a feature. Don't open issues for questions or support, instead join our [Slack workspace](https://www.asyncapi.com/slack-invite) and ask there. Don't forget to follow our [Slack Etiquette](https://github.com/asyncapi/community/blob/master/slack-etiquette.md) while interacting with community members! It's more likely you'll get help, and much faster!
-
-## Bug Reports and Feature Requests
-
-Please use our issues templates that provide you with hints on what information we need from you to help you out.
-
-## Pull Requests
-
-**Please, make sure you open an issue before starting with a Pull Request, unless it's a typo or a really obvious error.** Pull requests are the best way to propose changes to the specification. Get familiar with our document that explains [Git workflow](https://github.com/asyncapi/community/blob/master/git-workflow.md) used in our repositories. -->
-
 ## Commits conventionnels et Format des commits
 
 Chaque fois que vous effectuez un commit, vous enregistrez un instantané de votre projet sur lequel vous pourrez revenir ou comparer ultérieurement. Un message de commit est un texte descriptif qui est ajouté à l'objet par le développeur. Un commit en français est une livraison donc lorsqu'on commit on livre une version/avancement/fonctionnalité/correction du projet. Il comporte une ligne de titre et un corps facultatif.
@@ -67,7 +55,7 @@ Les messages commit nous permettent de dire ce qui a changé et pourquoi. Pour a
 - `fix: ` Une correction de bug .
 - `feat: ` Une amélioration d'une fonctionnalité ou une nouvelle fonctionnalité.
 - `docs: ` Un changement de documentation.
-- `chore: ` Une réogranisation de fichierq ou nettoyage du projet comme les mises à jour des tâches de construction(build tasks), des configurations du gestionnaire de paquets (npm, gulp), etc
+- `chore: ` Une réogranisation de fichiers ou nettoyage du projet comme les mises à jour des tâches de construction(build tasks), des configurations du gestionnaire de paquets (npm, gulp), etc
 - `style: ` Tout ce qui concerne le style couleur, polices de texte, les tailles, etc
 - `test: ` tout ce qui concerne les tests .
 - `refactor: ` Le préfixe dans le titre indique que le PR est uniquement lié au refactoring du code.
@@ -76,7 +64,7 @@ Les messages commit nous permettent de dire ce qui a changé et pourquoi. Pour a
 ### Scope :
 
 Le scope est le nom du package npm affecté. Il peut être http, router, forms, etc.
-Le scope est optionnel, on le met si on connait le nom du package.
+Le scope est optionnel, on le met si on connait le nom du package. Le scope est optionnel. Si on connait pas les packages affectés ou s'il en existe pas, nous rajoutons pas de scope dans le commit.
 
 ### Subject :
 
